@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="This is the personal website of a junior Front-end Web developer looking for their first professional practice or job. This page shows the projects I have worked on as well as my skills."/>
+        <meta name="keywords" content="html5, html css, css, css3, sass, js, javascript, es6, typescript, angular, angular 2, angular 7,
+         angular cli, portfolio, git, github, frontend, front-end, front-end developer, web developer, web developer portfolio, 
+         front-end web developer, junior web developer, web developer internship, bootstrap 4, object oriented programming, 
+         jquery, ajax, json, responsive web design, portfolio website, frontend developer posao, frontend developer job, resume, cv, biografija, posao, praksa "/>
+        <meta name="author" content="Miloš Lovčević"/>
+        <title>Milos Lovcevic | Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./css/style-min.css"/>
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="./bootstrap/bootstrap.min.css"/>
+        <script  src="./bootstrap/jquery-3.5.1.min.js"></script>
+        <script  src="./bootstrap/bootstrap.bundle.min.js"></script>
+        <script  src="./script/script.js"></script>
+        <script defer src="./script/animation_code.js"></script>
+        <script defer src="./script/animation.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!--PAGE OVERLAY-->
+           <div id="page-overlay"><h1 id="page-overlay-text" data-overlay-text="Hello...">Hello...</h1></div>
+            <!--HOME SECTION-->
+            <div class="row" id="home">
+                <div class="col">
+                   <header id="home-animation">
+                        <div id="hello">
+                            <div id="hello-name">Hi, I am 
+                                <div id="hello-name-box">
+                                    <span style="--i:0;">M</span>
+                                    <span style="--i:1;">i</span>
+                                    <span style="--i:2;">l</span>
+                                    <span style="--i:3;">o</span>
+                                    <span style="--i:4;">š</span>
+                                </div>
+                            </div>
+                            <p id="hello-job">{{Front-end Web Developer}}</p>
+                        </div>
+                        <nav id="home-nav-menu">
+                            <ul id="first-nav-menu">
+                                <li class="nav-identificator"><a href="./index.html">EN</a></li>
+                                <li><a href="./index-sr.html">SR</a></li>
+                            </ul>
+                            <div id="menu-for-small-device">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <ul id="second-nav-menu">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#project">Project</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#contact">Contact Me</a></li>
+                            </ul>
+                        </nav>
+                        <div class='icon-scroll'></div>
+                   </header>
+                </div>
+            </div>
+
+            <!--ABOUT ME SECTION-->
+            <div class="row" id="about">
+                <div class="col">
+                    <section id="about-section">
+                        <div id="about-picture">
+                        </div>
+                        <div id="about-data">
+                            <h4 id="about-data-beforeHeader">Discover</h4>
+                            <h2 id="about-data-header">About me</h2>
+                            <p id="about-data-text">
+                                My name is Miloš Lovčević and I'm Front-end Web Developer based in Novi Sad, Serbia.
+                                I enjoy working on large projects, especially enjoy working with JavaScript and Angular. I always experimenting, always learning, and never bored.
+                                I have acquired the skills necessary to build great and premium websites.
+                                I am currently looking for my first professional internship or job. 
+                            </p>
+                            <div id="about-data-info">
+                                <p><span>Name:</span> Miloš Lovčević</p>
+                                <p><span>Age:</span> 24</p>
+                                <p><span>Phone:</span> 065/4479789</p>
+                                <p><span>Address:</span> Novi Sad, Serbia</p>
+                                <p><span>Email:</span> miloslovcevic@gmail.com</p>
+                                <p><span>Experience:</span> /</p>
+                            </div>
+                            <form id="download-cv" name="download-cv" method="GET" action="./images/cv_milos_lovcevic.pdf" target="_blank">
+                                <button type="submit">Download cv</button>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!--PROJECT SECTION-->
+            <div class="row" id="project">
+                <div class="col">
+                    <section id="project-section">
+                        <h2 id="project-header">My Works</h2>
+                        <h4 id="project-afterHeader">My projects so far</h4>
+                        <div id="project-container">
+                            <div class="project-containers">
+                                <div class="project-img">
+                                  <img src="./images/craft-brewery.jpg" alt="Craft brewery is my first project">
+                                  <div id="date">Mar 2019</div>
+                                 </div>
+                                <div class="project-text">
+                                    <h3 class="project-text-header"><span class="project-text-name">Project name: </span>Craft brewery</h3>
+                                    <div class="project-text-technologies">
+                                        <i class="fab fa-html5" style="color: #f44336;"></i>
+                                        <i class="fab fa-css3-alt" style="color: #3698f4;"></i>
+                                        <i class="fab fa-js" style="color: #e2d303;"></i>
+                                        <i class="fab fa-angular" style="color: #ec190a;"></i>
+                                    </div>
+                                    <a href="https://milos-lovcevic.github.io/Diplomski/home" target="_blank">Visit website</a>
+                                </div>
+                            </div>
+                            <div class="project-containers">
+                                <div class="project-img">
+                                    <img src="./images/portfolio.jpg" alt="Portfolio is my second project">
+                                    <div id="date">Jan 2021</div>
+                                </div>
+                                <div class="project-text">
+                                    <h3 class="project-text-header"><span class="project-text-name">Project name: </span>Portfolio</h3>
+                                    <div class="project-text-technologies">
+                                        <i class="fab fa-html5" style="color: #f44336;"></i>
+                                        <i class="fab fa-css3-alt" style="color: #3698f4;"></i>
+                                        <i class="fab fa-js" style="color: #e2d303;"></i>
+                                    </div>
+                                    <a href="http://Milos-Lovcevic.github.io/Portfolio" target="_blank">Visit website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 id="project-after-container">More coming soon</h5>
+                    </section>
+                </div>
+            </div>
+
+             <!--SKILLS SECTION-->
+             <div class="row" id="skills" >
+                <div class="col">
+                    <section id="skills-section">
+                        <h2 id="skills-header">My Skills</h2>
+                        <h4 id="skills-afterHeader">New skills soon...</h4>
+                        <div id="skills-box">
+                           <div class="skills-items" style="--i:1;"><p>HTML 5</p></div> 
+                           <div class="skills-items" style="--i:13;"><p>CSS 3</p></div> 
+                           <div class="skills-items" style="--i:9;"><p>SASS</p></div> 
+                           <div class="skills-items" style="--i:4;"><p>JavaScript</p></div> 
+                           <div class="skills-items" style="--i:16;"><p>HTTP</p></div>
+                           <div class="skills-items" style="--i:6;"><p>Adobe Photoshop</p></div>
+                           <div class="skills-items" style="--i:15;"><p>RWD</p></div>
+                           <div class="skills-items" style="--i:8;"><p>Git</p></div>
+                           <div class="skills-items" style="--i:3;"><p>Jquery</p></div>
+                           <div class="skills-items" style="--i:10;"><p>Angular 2+</p></div>
+                           <div class="skills-items" style="--i:14;"><p>TypeScript</p></div>
+                           <div class="skills-items" style="--i:12;"><p>OOP</p></div>
+                           <div class="skills-items" style="--i:5;"><p>Bootstrap</p></div>
+                           <div class="skills-items" style="--i:11;"><p>Ajax</p></div>
+                           <div class="skills-items" style="--i:7;"><p>JSON</p></div>
+                           <div class="skills-items" style="--i:2;"><p>Adobe Ilustrator</p></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+            <!--CONTACT SECTION-->
+            <div class="row" id="contact">
+                <div class="col">
+                    <section id="contact-section">
+                        <div id="contact-data">
+                            <h2 id="contact-header">Contact Me</h2>
+                            <div class="contact-box">
+                                <h5 class="contact-box-header">Location</h5>
+                                <p class="contact-box-text">Novi Sad, Serbia <br>
+                                    bul. patrijarha Pavla
+                                </p>
+                                <i class="fas fa-map-marked-alt contact-box-icon"></i>
+                            </div>
+                            <div class="contact-box">
+                                <h5 class="contact-box-header">Email</h5>
+                                <p class="contact-box-text">miloslovcevic@gmail.com
+                                </p>
+                                <i class="fas fa-at contact-box-icon"></i>
+                            </div>
+                            <div class="contact-box">
+                                <h5 class="contact-box-header">Phone</h5>
+                                <p class="contact-box-text">+381654479789
+                                </p>
+                                <i class="fas fa-phone-volume contact-box-icon"></i>
+                            </div>
+                        </div>
+                        <div id="contact-form">
+                            <form name="contact-form" method="POST" onsubmit="return validateForm()" autocomplete="off">
+                                <input type="text" name="_gotcha" style="display:none" />
+                                <input class="contact-form-input" type="text" name="name" placeholder="Name" required/>
+                                <input class="contact-form-input" type="email" name="email" placeholder="Email" required/>
+                                <input class="contact-form-input" type="text" name="subject" placeholder="Subject" required/>
+                                <textarea class="contact-form-input" name="message" cols="15" rows="5" placeholder="Your Message" required></textarea>
+                                <input class="contact-form-input" type="submit" value="SEND MESSAGE"/>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!--FOOTER SECTION-->
+            <div class="row">
+                <div class="col">
+                    <footer id="footer-section">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/milos-lovcevic/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/Milos-Lovcevic"><i class="fab fa-git"></i></a></li>
+                        </ul>
+                        <div id="copyright">&copy; 2020, <span id="copyright-author"> Miloš Lovčević</span>. All rights reserved.</div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <!--ALERT-->
+        <div class="row">
+            <div class="col">
+                <div id="alert-container">
+                    <strong>Success!</strong> Message is successfully sent.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
